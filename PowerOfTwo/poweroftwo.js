@@ -14,13 +14,4 @@ function powerOfTwo(n) {
   return true;
 }
 // Time complexity O(logn)
-
-// 2
-function isPowerOfTwoBitWise(n) {
-  if (n < 1) {
-    return false;
-  }
-  return (n & (n - 1)) === 0;
-}
-
 module.exports = powerOfTwo;
